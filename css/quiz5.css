@@ -1,0 +1,35 @@
+header .logomain{
+    width: 40px;
+    margin-right: 10px;
+}
+header .slider{
+    width: 60%;
+    height: auto;
+    margin: 100px auto 30px auto ;
+}
+header .title{
+    color: rgb(63, 50, 146) !important;
+    letter-spacing: -2px;
+
+}
+header .slider img{
+    height: auto;
+}
+
+.singinstyle{
+    width: 35%;
+    margin: 60px auto;
+}
+.singupstyle{
+    width: 60%;
+    margin: 60px auto;
+}
+.product{
+    margin: 8px 11px;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.love{
+    margin-top: 50px;
+}

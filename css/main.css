@@ -1,0 +1,143 @@
+/* Start Variables */
+:root {
+    --main-color: #10cab7;
+    --secondary-color: #2c4755;
+    --section-padding: 60px;
+    --section-background: #f6f6f6;
+    --main-duration: 0.5s;
+}
+
+/* End Variables */
+
+
+body {
+    background-color: rgb(230, 228, 245);
+}
+
+header .logomain {
+    width: 40px;
+    margin-right: 10px;
+}
+
+header .title {
+    color: rgb(63, 50, 146) !important;
+    letter-spacing: -2px;
+
+}
+
+.carousel {
+    width: 70%;
+    margin: 30px auto;
+    height: 570px;
+
+}
+
+.carousel img {
+    border-radius: 5px;
+    height: 570px;
+}
+
+@media(max-width:600px) {
+    .carousel {
+        width: 90%;
+        margin: 30px auto;
+        height: 250px;
+    }
+
+    .carousel img {
+        border-radius: 5px;
+        height: 250px;
+    }
+
+}
+
+.contaier .title {
+    text-align: center;
+    margin-bottom: 50px;
+    color: royalblue;
+
+}
+
+.contaier {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.imageaboutst {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imageabout {
+    width: 250px;
+
+}
+
+.contaier .text h3 {
+    text-align: center;
+}
+
+.nav-pills {
+    background-color: rgba(28, 163, 226, 0.7);
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 7px;
+    justify-content: space-around;
+}
+
+.nav-pills li a {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container-fluid {
+    margin: 60px auto;
+
+}
+
+.card {
+    margin-top: 25px;
+    text-align: center;
+
+}
+
+.order {
+    margin: 50px auto;
+
+}
+
+.order .orderimgt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botnav {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    height: 300px;*/
+    background-color: rgb(179, 170, 170);
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+
+.botnav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.botnav li {
+    list-style: none;
+}
+
+.botnav a {
+    text-decoration: none;
+    color: black;
+}
+
+.botnav a:hover {
+    color: white;
+}
