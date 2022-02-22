@@ -154,4 +154,10 @@ header .title {
         width: 60%;
         margin-top: 20px;
     }
+    .about-text{
+        text-align: center;
+    }
+    .about-text p{
+        text-align: left;
+    }
 }
