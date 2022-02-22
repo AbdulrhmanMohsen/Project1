@@ -141,3 +141,17 @@ header .title {
 .botnav a:hover {
     color: white;
 }
+
+@media(max-width:450px) {
+    .nav-pills{
+        width: 80%;
+        margin-top: 15px;
+    }
+    .imageabout{
+        width: 50%;
+    }
+    .img-fluid {
+        width: 60%;
+        margin-top: 20px;
+    }
+}
